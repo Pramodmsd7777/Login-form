@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url("new.jpg");
+    background-size: cover;
+    background-position: center;
+
+        
+}
+.wrapper{
+    width: 400px;
+    background-color:cornflowerblue;
+    color: white ;
+    border-radius:20px;
+    padding:30px 40px;
+    background: transparent;
+    border: 4px solid black;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background: transparent;
+    /* background-color: coral; */
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    background:turquoise;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid maroon;
+    padding: 30px;
+    background: transparent;
+}
+.input-box input::placeholder{
+    color:rgb(3, 4, 13);
+    font-size: 18px
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin: 20px;
+}
+.remember-forgot label input{
+    color:aliceblue;
+    margin-left: 2px;
+}
+.remember-forgot a{
+    color: wheat ;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration:underline;
+
+}
+.wrapper button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(4, 0, 1);
+
+}
+.wrapper .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding:30px 30p
+
+}
+.register-link p a{
+    color:darkorange;
+    text-decoration:none;
+}
+p.a:hover{
+    text-decoration: underline;
+}
+
